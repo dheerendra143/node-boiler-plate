@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727556635880" clover="3.2.0">
-  <project timestamp="1727556635880" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="34" coveredelements="34" complexity="0" loc="32" ncloc="32" packages="5" files="6" classes="6"/>
+<coverage generated="1727556771017" clover="3.2.0">
+  <project timestamp="1727556771017" name="All files">
+    <metrics statements="32" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="34" coveredelements="31" complexity="0" loc="32" ncloc="32" packages="5" files="6" classes="6"/>
     <package name="app">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/dheerendrasingh/Documents/projects/node/node-boiler-plate/src/app/app.js">
@@ -47,12 +47,12 @@
       </file>
     </package>
     <package name="modules.user.controller">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="user.controllers.js" path="/Users/dheerendrasingh/Documents/projects/node/node-boiler-plate/src/modules/user/controller/user.controllers.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
     </package>
