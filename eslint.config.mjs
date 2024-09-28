@@ -3,7 +3,8 @@ import pluginJs from '@eslint/js';
 
 
 export default [
-  {files: ['**/*.js'], languageOptions: {sourceType: 'commonjs'}},
+  
+  {languageOptions: {sourceType: 'commonjs'}},
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   {
@@ -47,5 +48,8 @@ export default [
       'prefer-const': 'error',
       'prefer-template': 'warn'
     }
+  },
+  {
+    ignores:['**.**', '**/**/', '!**src/**']
   }
 ];
